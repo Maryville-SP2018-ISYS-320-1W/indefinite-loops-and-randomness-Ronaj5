@@ -6,21 +6,21 @@
 
 /*
  How many times do you expect the loop to repeat? Remember that 
- “zero,” “infinity,” and “unknown” are legal answers.
+
  
  What do you expect the loop to output?
  
  (a)
- Repeats:
- Expected output:
+ Repeats:10 times
+ Expected output: 11, 21, 31, 41, 51, 61, 71, 81, 91
  (b)
- Repeats:
+ Repeats:  infinity
  Expected output:
  (c)
- Repeats:
+ Repeats: infinity
  Expected output:
  (d)
- Repeats:
+ Repeats: 5 times
  Expected output:
    
  */
@@ -28,10 +28,10 @@
 /*
  Was your prediction correct?
  
- (a)
- (b)
- (c)
- (d)
+ (a) yes
+ (b)yes
+ (c) yes
+ (d) No
 
 */
 public class P4_DoLoopPredictions {
@@ -41,8 +41,11 @@ public class P4_DoLoopPredictions {
 		
 		
 		// copy and paste the loop to test between here, between the println statements
-		
-				
+		//c
+		int y = 250;
+		do {
+		    System.out.println( y );
+		} while( y % 3 != 0 );
 		System.out.println("ENDING LOOP TEST");
 
 	}
